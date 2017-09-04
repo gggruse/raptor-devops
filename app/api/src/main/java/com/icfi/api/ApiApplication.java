@@ -53,7 +53,7 @@ public class ApiApplication {
 	public @ResponseBody Map<String, String> greet() {
 		Map<String, String> message = new HashMap<String, String>();
 
-		message.put("greeting", "Hello World");
+		message.put("gregs greeting", "Hello World");
 
 		return message;
 	}
